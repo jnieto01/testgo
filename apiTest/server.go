@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	host := "192.168.0.55:80"
+	host := "localhost:80"
 	router := mux.NewRouter()
 
 	router.HandleFunc("/test", myTest)
